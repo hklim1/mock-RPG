@@ -18,9 +18,12 @@ export default abstract class InventoryItem{
     }
 
     public get item(){
-        return `Item ID #${this._id}: ${this._name}`
+        return `ID#${this._id} ${this._name}: ${this._description}. (${this._price})`
     }
 
+    public get itemName(){
+        return this._name
+    }
     public get itemDesc(){
         return `"${this._name}: ${this._description}"`
     }
