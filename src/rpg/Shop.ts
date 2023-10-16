@@ -14,10 +14,10 @@ export default class Shop {
     }
 }
 
-const sword = new Weapon('sword', 'sharp stick', 20.99, 10)
-const bow = new Weapon('bow', 'sharp stick with slingshot', 9.99, 5)
-const club = new Weapon('club', 'dull big stick', 5.00, 15)
+// const sword = new Weapon('sword', 'sharp stick', 20.99, 10)
+// const bow = new Weapon('bow', 'sharp stick with slingshot', 9.99, 5)
+// const club = new Weapon('club', 'dull big stick', 5.00, 15)
 
-const shop1 = new Shop(sword, bow, club)
+// const shop1 = new Shop(sword, bow, club)
 
-console.log(shop1.shopItems)
+// console.log(shop1.shopItems)
